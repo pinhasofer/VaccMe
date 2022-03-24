@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vaccme">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- for database -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/syringe"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VaccMe">
+
+        <activity
+            android:name=".ChangePassAndEmailActivity"
+            android:exported="false" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Locations"
+            android:exported="false"
+            android:label="@string/title_activity_locations">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainScreenActivity" />
+        </activity>
+
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+
+        <activity
+            android:name=".SignUpScreen"
+            android:exported="false" />
+
+        <activity
+            android:name=".LoginScreen"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".calc_Results"
+            android:exported="false" />
+            
+        <activity
+            android:name=".SettingScreen"
+            android:exported="false" />
+
+        <activity
+            android:name=".Next_Infomation_Page"
+            android:exported="false" />
+
+        <activity
+            android:name=".Next_to_Calculator"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainScreenActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".InfoPageActivity1"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".introductoryActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".About"
+            android:exported="true"/>
+
+    </application>
+
+</manifest>

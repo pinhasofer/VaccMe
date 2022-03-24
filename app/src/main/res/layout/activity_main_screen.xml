@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:clickable="true"
+    tools:context=".MainScreenActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="180dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/serchbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/night_bg2"
+            android:clickable="true"
+            app:srcCompat="@drawable/map"
+            tools:ignore="OnClick,SpeakableTextPresentCheck"
+            android:onClick="mapage"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="         חפש חיסון קרוב"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"/>
+
+        <ImageButton
+            android:id="@+id/databutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/night_bg2"
+            android:onClick="infoBtnClicked"
+            app:srcCompat="@drawable/analytics"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      מידע אודות הנגיף"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"/>
+
+
+        <Button
+            android:id="@+id/ramzorBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="ramzorBtnClicked"
+            android:text="הורד אפליקציית רמזור" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="180dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/calcubutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/night_bg2"
+            app:srcCompat="@drawable/low_performance"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:onClick="calculpage"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    חשב את דרגת הסיכון"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"/>
+
+        <ImageButton
+            android:id="@+id/setingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/night_bg2"
+            app:srcCompat="@drawable/settings"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:onClick="settingpage"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                הגדרות"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"/>
+
+        <Button
+            android:id="@+id/vacInfoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="setVacInfoBtnClicked"
+            android:text="תמונת מצב לגבי קורונה" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/logoutButton"
+        android:layout_width="69dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/night_bg2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/logout"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:onClick="logoutpage"/>
+
+    <TextView
+        android:id="@+id/logoutext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="התנתק"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoutButton" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="600dp"
+        android:fontFamily="serif"
+        android:forceDarkAllowed="false"
+        android:text="ברוכים הבאים"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#022178"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewvaccme"
+        android:layout_width="120dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/syringe" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

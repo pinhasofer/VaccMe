@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1023061765676",
+    "project_id": "vaccme-7908a",
+    "storage_bucket": "vaccme-7908a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023061765676:android:4c432266a6df21e85d6b89",
+        "android_client_info": {
+          "package_name": "com.example.vaccme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023061765676-ab48o5dq20dm47aeb9khsi86uce1jr5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_QhV2awJTlh_BL_67wTasn3S8WZyV7U8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023061765676-ab48o5dq20dm47aeb9khsi86uce1jr5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

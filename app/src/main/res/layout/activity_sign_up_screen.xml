@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpScreen"
+    android:background="@drawable/gradient"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:layout_alignParentRight="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="236dp"
+            android:layout_height="241dp"
+            android:src="@drawable/ic_vaccme"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="הרשם ל - VaccMe"
+            android:textSize="38sp"
+            android:textColor="@color/yellow"
+            android:layout_gravity="center"
+            android:elevation="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <!--        email-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailField"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="דואר אלקטרוני"
+                app:hintTextColor="@color/yellow"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <!--        username-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/usernameField"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="שם משתמש"
+                app:hintTextColor="@color/yellow"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <!--        password-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="סיסמה"
+                android:id="@+id/passwordField"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/yellow">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:onClick="signUpBtnClicked"
+            android:id="@+id/signUpBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="הרשם"
+            android:layout_gravity="center_vertical"
+            android:elevation="5dp"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+
+<!--        login button-->
+        <Button
+            android:onClick="loginBtnClicked"
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:background="@color/transparent"
+            android:elevation="0dp"
+            android:outlineAmbientShadowColor="@color/yellow"
+            android:text="לחץ על מנת להתחבר"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+</ScrollView>

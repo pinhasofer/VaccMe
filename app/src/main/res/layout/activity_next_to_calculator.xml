@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Next_to_Calculator"
+    android:background="@drawable/night_bg">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00e6e6"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:text="סמן את הרלוונטי לגביך"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="הזן גיל"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/TextNumber2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="320dp"/>
+
+            <CheckBox
+                android:id="@+id/check1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text=" דיכוי חיסוני (כולל HIV, מושתלי איברים, טיפול פומי ממושך בסטרואידים או בתרופות מדכאות חיסון)"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/check2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="מחלה של הלב ושל כלי הדם"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/check3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="מחלה נוירולוגית"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/check4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="סוכרת "
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/check5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="הריון"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/check6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="יותר מ BMI 30 (השמנת־יתר)"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/check7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="מחלת ריאות חסימתית כרונית (COPD) או עישון מצטבר ששווה לעשר שנות עישון של חפיסה אחת בכל יום"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/check8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" מחלת כליות כרונית (אי־ספיקת כליות)"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/check9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" מחלת כבד כרונית"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/check10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="מחלה ממאירה פעילה שנמצאת בטיפול בחמש השנים האחרונות"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="הזן את כמות האשפוזים בשלוש שנים האחרונות"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/TextNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="320dp"
+                android:ems="10"
+                android:inputType="number"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="calc"
+                android:text="חשב"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="חישוב רמת סיכון"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#022178"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.296" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/col1"
+        android:onClick="returntomainpage"
+        android:text="חזור"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

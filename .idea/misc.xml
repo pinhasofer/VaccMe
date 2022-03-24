@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/drawable-anydpi/icBackArrow.xml" value="0.2203125" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/drawable/buttun_bg.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/drawable/edit_text_bg.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/drawable/gradient.xml" value="0.2203125" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/drawable/night_bg.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/drawable/night_bg2.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/drawable/vie_bg.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_about.xml" value="0.22" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_calc_results.xml" value="0.31794871794871793" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_change_pass_and_email.xml" value="0.18" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_dashboard.xml" value="0.18" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_info_page1.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_introductory.xml" value="0.1" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_locations.xml" value="0.1" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_locations2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_login_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_main.xml" value="0.2546875" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_main_menu.xml" value="0.22" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_main_screan.xml" value="0.2546875" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_main_screen.xml" value="0.268" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_main_screen_guest.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_next_infomation_page.xml" value="0.2" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_next_page.xml" value="0.10683760683760683" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_next_to_calculator.xml" value="0.34523809523809523" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_next_to_logout.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_next_to_map.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_next_to_setting.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_registration.xml" value="0.2" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_setting_screen.xml" value="0.2977777777777778" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/activity_sign_up_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/content_main_screan.xml" value="0.2546875" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/fragment_first.xml" value="0.2546875" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/fragment_second.xml" value="0.2546875" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/login_tab_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/maor Pc/Documents/GitHub/VaccMe/app/src/main/res/layout/signup_tab_fragment.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

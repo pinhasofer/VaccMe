@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/night_bg"
+    tools:context=".InfoPageActivity1">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="321dp"
+        android:layout_height="66dp"
+        android:rotationX="-13"
+        android:text="נגיף הקורונה"
+        android:textAlignment="center"
+        android:background="#7fffd4	"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="48dp"
+        android:textColor="#006400"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="331dp"
+        android:layout_height="533dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="40dp"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/infoTxt"
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:background="#7fffd4"
+            android:scrollbars="vertical"
+            android:text="מגפת הקורונה היא מגפה עולמית , מגפה זו נדבקו מאות מיליוני בני אדם מתוכם מעל רבע מיליארד מאומתים .
+                    ומתו לפחות 5 מיליון בני אדם .
+                    התפרצות המגפה לראשונה פרצה בווהאן שבסין בדצמבר 2019,אך נטען כי מקרים של הדבקה הופיעו קודם לכן .
+                    אמצע פברואר 2020 החלה להתפשט במהירות בכל העולם.
+                    התפשטות המגפה הביאה בהלה מלווה במשבר כלכלי משמעותי, מדינות העולם הגיבו למגפה באמצעות הנחיות לשמור על ריחוק חברתי , הטלת מגבלות על תנועה והתקהלויות , הטלת סגרים ועוצרים ,ביטולי אירועים וסגירת כלל מוסדות הלא חיוניים.
+                    כמו כן .נעשו מאמצים ממוקדים לאתר חולים ונשאים ולבודדם , למגן את צוותי הרפואה ולהגדיל באופן מהיר את קיבולת בתי החולים, כולל מסגרות אשפוז מיוחדות לטובת חולי הקורונה.
+                    בספטמבר 2020 ובמהלך שנת 2021 התגלו עשרות מוטציות בנגיף הקורונה שהשפיעו על התפרצויות חדשות של המחלה ברחבי העולם ,בסוף שנת 2020 החל מתן חיסון המוני נגד הנגיף לאוכלוסיית העולם
+                        למידע נוסף והעשרת הידע :
+                     1.כללי זהירות:
+                     https://youtu.be/fTVJQE1hjNk
+                     2.כל מה שצריכים לדעת על הנגיף:
+                     https://www.youtube.com/watch?v=F7WbGCGKqsA
+                     3.אתר משרד הבריאות בעניין הקורונה:
+                     https://govextra.gov.il/ministry-of-health/corona/corona-virus/
+                    4.מידע כללי על מגפת הקורונה -ויקיפדיה:
+                    https://he.wikipedia.org/wiki/%D7%9E%D7%92%D7%A4%D7%AA_%D7%94%D7%A7%D7%95%D7%A8%D7%95%D7%A0%D7%94
+                    5.סרטוני המומחים בנושא חיסוני הקורונה:
+                    https://www.tasmc.org.il/corona/Pages/---Q-and-A---video---corona-vaccine-.aspx"
+            android:textAlignment="center"
+            android:textColor="#006400"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="101dp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/returnBtn"
+        android:layout_width="262dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#7fffd4"
+        android:onClick="returnBtnClicked"
+        android:text="חזור לדף הקודם"
+        android:textAlignment="center"
+        android:textColor="#006400"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/SCROLLER_ID" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="55dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SCROLLER_ID"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
